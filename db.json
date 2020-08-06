@@ -29,3 +29,15 @@
     }
   }
 }
+{
+  "self": {
+    "203:18f0:c3bb:cd12:66d2:bb08:ce8d:9fde": {
+      "box_pub_key": "64735dcf73c1afa1fde9a8b238077b2dcc474adf42cfa55b5ccfa90ddb1ce011",
+      "build_name": "yggdrasil",
+      "build_version": "0.3.14",
+      "coords": "[1 8 4 113]",
+      "subnet": "303:18f0:c3bb:cd12::/64"
+    }
+  }
+}
+

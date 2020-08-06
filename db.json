@@ -1,43 +1,45 @@
 {
-  "peers": {
-    "201:6a49:40cc:c40e:db1c:33d0:bb14:93ec": {
-      "box_pub_key": "120915e044fb981b4681448072079592bf92dadd2c1256d35f1e1d4e480d2e2e",
-      "bytes_recvd": 431375,
-      "bytes_sent": 177877,
-      "endpoint": "tcp://[2001:1af8:4700:a119:7::1]:35239",
-      "port": 2,
-      "proto": "tcp",
-      "uptime": 3489.160411388
-    },
-    "203:18f0:c3bb:cd12:66d2:bb08:ce8d:9fde": {
-      "box_pub_key": "64735dcf73c1afa1fde9a8b238077b2dcc474adf42cfa55b5ccfa90ddb1ce011",
-      "bytes_recvd": 1433716,
-      "bytes_sent": 2032750,
-      "endpoint": "(self)",
-      "port": 0,
-      "proto": "self",
-      "uptime": 9249.581684886
-    },
-    "204:4738:37c6:d295:1b34:2722:62dd:e8de": {
-      "box_pub_key": "15bfab4e09218e033bd7feb290e9d4991dbe99f064e606f1718c27568dbb5d71",
-      "bytes_recvd": 58149,
-      "bytes_sent": 128498,
-      "endpoint": "tls://212.129.52.193:39575",
-      "port": 3,
-      "proto": "tls",
-      "uptime": 3007.794802026
+  "data": 
+  {
+    "peers": {
+      "201:6a49:40cc:c40e:db1c:33d0:bb14:93ec": {
+        "box_pub_key": "120915e044fb981b4681448072079592bf92dadd2c1256d35f1e1d4e480d2e2e",
+        "bytes_recvd": 431375,
+        "bytes_sent": 177877,
+        "endpoint": "tcp://[2001:1af8:4700:a119:7::1]:35239",
+        "port": 2,
+        "proto": "tcp",
+        "uptime": 3489.160411388
+      },
+      "203:18f0:c3bb:cd12:66d2:bb08:ce8d:9fde": {
+        "box_pub_key": "64735dcf73c1afa1fde9a8b238077b2dcc474adf42cfa55b5ccfa90ddb1ce011",
+        "bytes_recvd": 1433716,
+        "bytes_sent": 2032750,
+        "endpoint": "(self)",
+        "port": 0,
+        "proto": "self",
+        "uptime": 9249.581684886
+      },
+      "204:4738:37c6:d295:1b34:2722:62dd:e8de": {
+        "box_pub_key": "15bfab4e09218e033bd7feb290e9d4991dbe99f064e606f1718c27568dbb5d71",
+        "bytes_recvd": 58149,
+        "bytes_sent": 128498,
+        "endpoint": "tls://212.129.52.193:39575",
+        "port": 3,
+        "proto": "tls",
+        "uptime": 3007.794802026
+      }
+    }
+  }
+  {
+    "self": {
+      "203:18f0:c3bb:cd12:66d2:bb08:ce8d:9fde": {
+        "box_pub_key": "64735dcf73c1afa1fde9a8b238077b2dcc474adf42cfa55b5ccfa90ddb1ce011",
+        "build_name": "yggdrasil",
+        "build_version": "0.3.14",
+        "coords": "[1 8 4 113]",
+        "subnet": "303:18f0:c3bb:cd12::/64"
+      }
     }
   }
 }
-{
-  "self": {
-    "203:18f0:c3bb:cd12:66d2:bb08:ce8d:9fde": {
-      "box_pub_key": "64735dcf73c1afa1fde9a8b238077b2dcc474adf42cfa55b5ccfa90ddb1ce011",
-      "build_name": "yggdrasil",
-      "build_version": "0.3.14",
-      "coords": "[1 8 4 113]",
-      "subnet": "303:18f0:c3bb:cd12::/64"
-    }
-  }
-}
-
